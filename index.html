@@ -3,13 +3,14 @@
 
 <head>
   <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <title>Simon</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 id="level-title">Press Start Key to Start</h1>
   <div class="container">
     <div class="row">
 
@@ -39,6 +40,10 @@
 
   <div class="bottomtext">
 
+    <div class="middiv">
+      <button class="start">Start</button>
+    </div>
+    
     <div class="leftdiv">
       <button onclick="togglePopup()" class="htp">how to play</button>
 
@@ -64,7 +69,7 @@
         </p>
     </div>
     </div>
-
+    
     <div class="rightdiv">
       <h2 id="high-score">High Score = 0</h2>
     </div>
